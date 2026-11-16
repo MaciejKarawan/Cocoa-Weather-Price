@@ -1,0 +1,93 @@
+{
+ "okres": "1961/1962–2023/2024",
+ "wiersze": [
+  {
+   "produkcja": "Ghana (COCOBOD)",
+   "cena": "sezon s−1",
+   "n": 61,
+   "spearman": 0.205,
+   "p": 0.1125,
+   "elastycznosc": 0.12,
+   "t_hac": 0.79
+  },
+  {
+   "produkcja": "Ghana (COCOBOD)",
+   "cena": "sezon s",
+   "n": 62,
+   "spearman": -0.351,
+   "p": 0.0052,
+   "elastycznosc": -0.406,
+   "t_hac": -2.98
+  },
+  {
+   "produkcja": "Ghana (COCOBOD)",
+   "cena": "sezon s+1",
+   "n": 62,
+   "spearman": -0.165,
+   "p": 0.2005,
+   "elastycznosc": -0.219,
+   "t_hac": -2.33
+  },
+  {
+   "produkcja": "WKS Y/Y+1 + Ghana",
+   "cena": "sezon s−1",
+   "n": 61,
+   "spearman": 0.095,
+   "p": 0.4668,
+   "elastycznosc": 0.159,
+   "t_hac": 0.83
+  },
+  {
+   "produkcja": "WKS Y/Y+1 + Ghana",
+   "cena": "sezon s",
+   "n": 61,
+   "spearman": -0.436,
+   "p": 0.0004,
+   "elastycznosc": -0.949,
+   "t_hac": -4.36
+  },
+  {
+   "produkcja": "WKS Y/Y+1 + Ghana",
+   "cena": "sezon s+1",
+   "n": 61,
+   "spearman": -0.159,
+   "p": 0.2212,
+   "elastycznosc": -0.314,
+   "t_hac": -1.84
+  },
+  {
+   "produkcja": "WKS Y−1/Y + Ghana",
+   "cena": "sezon s−1",
+   "n": 61,
+   "spearman": 0.203,
+   "p": 0.116,
+   "elastycznosc": 0.419,
+   "t_hac": 2.28
+  },
+  {
+   "produkcja": "WKS Y−1/Y + Ghana",
+   "cena": "sezon s",
+   "n": 62,
+   "spearman": -0.351,
+   "p": 0.0051,
+   "elastycznosc": -0.59,
+   "t_hac": -2.71
+  },
+  {
+   "produkcja": "WKS Y−1/Y + Ghana",
+   "cena": "sezon s+1",
+   "n": 62,
+   "spearman": -0.307,
+   "p": 0.0153,
+   "elastycznosc": -0.738,
+   "t_hac": -2.72
+  }
+ ],
+ "replikacja_v1": {
+  "n": 63,
+  "spearman": -0.499,
+  "p": 0.0,
+  "elastycznosc": -1.071,
+  "t_hac": -4.67
+ }
+}

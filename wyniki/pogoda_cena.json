@@ -1,0 +1,173 @@
+{
+ "specyfikacja": "wynik.md, sekcja „Pogoda → cena”",
+ "bramka_V2": {
+  "Ghana": {
+   "R_d31": {
+    "sezony": "1984/1985–2023/2024",
+    "n": 40,
+    "b_na_sd": 0.0966,
+    "p": 0.0001,
+    "r2": 0.19
+   },
+   "R_d": {
+    "sezony": "1984/1985–2023/2024",
+    "n": 40,
+    "b_na_sd": 0.1138,
+    "p": 0.0,
+    "r2": 0.264
+   }
+  },
+  "WKS": {
+   "R_d31": {
+    "sezony": "2001/2002–2023/2024",
+    "n": 23,
+    "b_na_sd": 0.0722,
+    "p": 0.0001,
+    "r2": 0.354
+   },
+   "R_d": {
+    "sezony": "2001/2002–2023/2024",
+    "n": 23,
+    "b_na_sd": 0.0806,
+    "p": 0.0,
+    "r2": 0.441
+   }
+  },
+  "przechodzi": true
+ },
+ "cena": {
+  "V1": {
+   "sezony": "1984/1985–2025/2026",
+   "n": 42,
+   "b_na_sd": 0.0495,
+   "przedzial_90": [
+    -0.0045,
+    0.1036
+   ],
+   "p": 0.9341,
+   "r2": 0.088,
+   "spearman": 0.191,
+   "p_spearman_dwustronne": 0.2261,
+   "istotny": false
+  },
+  "V2": {
+   "sezony": "1984/1985–2025/2026",
+   "n": 42,
+   "b_na_sd": -0.0005,
+   "przedzial_90": [
+    -0.0465,
+    0.0456
+   ],
+   "p": 0.4932,
+   "r2": 0.0,
+   "spearman": -0.042,
+   "p_spearman_dwustronne": 0.7899,
+   "istotny": false
+  },
+  "rownoczesny_post_hoc": {
+   "sezony": "1984/1985–2025/2026",
+   "n": 42,
+   "b_na_sd": -0.0665,
+   "przedzial_90": [
+    -0.1309,
+    -0.0021
+   ],
+   "p": 0.0448,
+   "r2": 0.11,
+   "spearman": -0.194,
+   "p_spearman_dwustronne": 0.2177,
+   "istotny": true
+  }
+ },
+ "sd_zwrotu": {
+  "V1": 0.1668,
+  "V2": 0.1965,
+  "rownoczesny": 0.2006
+ },
+ "bez_sezonow_post_hoc": {
+  "rownoczesny bez 2025": {
+   "sezony": "1984/1985–2024/2025",
+   "n": 41,
+   "b_na_sd": -0.0336,
+   "przedzial_90": [
+    -0.0797,
+    0.0125
+   ],
+   "p": 0.1153,
+   "r2": 0.036,
+   "spearman": -0.134,
+   "p_spearman_dwustronne": 0.4043,
+   "istotny": false
+  },
+  "V1 bez 2025": {
+   "sezony": "1984/1985–2024/2025",
+   "n": 41,
+   "b_na_sd": 0.0182,
+   "przedzial_90": [
+    -0.0115,
+    0.0479
+   ],
+   "p": 0.843,
+   "r2": 0.017,
+   "spearman": 0.13,
+   "p_spearman_dwustronne": 0.4174,
+   "istotny": false
+  },
+  "V2 bez 2025": {
+   "sezony": "1984/1985–2024/2025",
+   "n": 41,
+   "b_na_sd": -0.0135,
+   "przedzial_90": [
+    -0.0569,
+    0.0299
+   ],
+   "p": 0.3044,
+   "r2": 0.005,
+   "spearman": -0.091,
+   "p_spearman_dwustronne": 0.5695,
+   "istotny": false
+  },
+  "rownoczesny bez 2023+2024+2025": {
+   "sezony": "1984/1985–2022/2023",
+   "n": 39,
+   "b_na_sd": -0.0145,
+   "przedzial_90": [
+    -0.0526,
+    0.0236
+   ],
+   "p": 0.266,
+   "r2": 0.01,
+   "spearman": -0.074,
+   "p_spearman_dwustronne": 0.6557,
+   "istotny": false
+  },
+  "V1 bez 2023+2024+2025": {
+   "sezony": "1984/1985–2022/2023",
+   "n": 39,
+   "b_na_sd": 0.0147,
+   "przedzial_90": [
+    -0.0144,
+    0.0438
+   ],
+   "p": 0.7971,
+   "r2": 0.011,
+   "spearman": 0.104,
+   "p_spearman_dwustronne": 0.5277,
+   "istotny": false
+  },
+  "V2 bez 2023+2024+2025": {
+   "sezony": "1984/1985–2022/2023",
+   "n": 39,
+   "b_na_sd": -0.0256,
+   "przedzial_90": [
+    -0.0647,
+    0.0134
+   ],
+   "p": 0.1399,
+   "r2": 0.02,
+   "spearman": -0.139,
+   "p_spearman_dwustronne": 0.3992,
+   "istotny": false
+  }
+ }
+}
